@@ -1,0 +1,25 @@
+/* ContactList.module.css */
+
+/* Genel liste düzeni */
+.ul {
+    list-style-type: none; /* Liste madde işaretlerini kaldır */
+    padding: 0; /* İç padding sıfırlama */
+    margin: 0; /* Margin sıfırlama */
+    width: 100%; /* Liste genişliği */
+    margin: 20px auto; /* Listeyi ortala */
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+  }
+  
+  /* Liste öğeleri */
+  li {
+    background-color: #f9f9f9; /* Arka plan rengi */
+    margin-bottom: 15px; /* Alt boşluk */
+    padding: 15px; /* İçerik padding */
+    border-radius: 8px; /* Köşe yuvarlama */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); /* Hafif gölge */
+    display: flex;
+    flex-direction: column; /* İçeriği dikey sıralama */
+    gap: 10px; /* Elemanlar arasındaki boşluk */
+  }

@@ -23,6 +23,10 @@ function App() {
       ...prevContacts
     ]);
   }
+  const deleteContact=(id)=>{   
+       console.log("fas");
+    setContacts((prevContacts)=> prevContacts.filter((contact)=>contact.id!==id));
+  }
   
   const visibleConatacts = contacts.filter((contact) =>
     contact.name.toLowerCase().includes(filter.toLowerCase())
@@ -33,7 +37,7 @@ function App() {
      <h1>Phonebook</h1>
      <ContactForm  addContact={addContact}/>
      <SearchBox filterContact={setFilter}/>
-     <ContactList  contactList={visibleConatacts}/>
+     <ContactList  contactList={visibleConatacts} onDeleted={deleteContact}/>
     
 
     </>

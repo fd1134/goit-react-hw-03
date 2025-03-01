@@ -1,0 +1,54 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Form genişliği */
+    margin: 20px auto; /* Ortalamak için */
+    padding: 20px; /* İçerik padding */
+    background-color: #f9f9f9; /* Form arka plan rengi */
+    border-radius: 8px; /* Köşeleri yuvarlama */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4); /* Hafif gölge */
+  }
+  
+  label {
+    font-size: 14px; /* Etiket yazı boyutu */
+    font-weight: bold; /* Etiket yazı kalınlığı */
+    margin-bottom: 5px; /* Etiket ile input arasında boşluk */
+    align-self: self-start;
+  }
+  
+  input {
+    padding: 10px; /* Input alanına padding */
+    font-size: 16px; /* Yazı boyutu */
+    border: 1px solid #ccc; /* Kenarlık rengi */
+    border-radius: 4px; /* Kenarları yuvarlat */
+    outline: none; /* Odak dışı kenarlık */
+    transition: border-color 0.3s; /* Kenarlık rengi geçişi */
+    margin-bottom: 20px;
+  }
+  
+  input:focus {
+    border-color: #4CAF50; /* Odaklanınca kenarlık yeşil olur */
+  }
+  
+  span {
+    color: red; /* Hata mesajları kırmızı */
+    font-size: 12px; /* Hata mesajı font boyutu */
+    margin-top: 5px; /* Mesaj ile input arasında boşluk */
+  }
+  
+  button {
+    padding: 12px 20px; /* Buton padding */
+    font-size: 16px; /* Buton yazı boyutu */
+    color: white; /* Buton yazı rengi */
+    background-color: #4CAF50; /* Buton arka plan rengi */
+    border: none; /* Kenarlık yok */
+    border-radius: 4px; /* Kenar yuvarlama */
+    cursor: pointer; /* Fare işareti buton üzerinde */
+    transition: background-color 0.3s; /* Geçiş efekti */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Buton üzerine gelince rengi değişir */
+  }
+  
+ 
