@@ -1,5 +1,5 @@
 import { useId } from "react";
-import css from "./SearchBox.module.css"
+import css from "./SearchBox.module.css";
 const SearchBox = ({ filterContact }) => {
   const searchFieldId = useId();
 
