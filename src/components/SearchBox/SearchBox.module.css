@@ -1,17 +1,16 @@
 .searchContainer {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Elemanlar arasındaki boşluk */
+    gap: 10px;
     padding: 15px;
     background-color: #f9f9f9;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px; /* Maksimum genişlik */
-    margin: 0 auto; /* Ortalamak için */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    width: 300px; 
+    margin: 20px auto;
   }
   
-  /* Başlık stili */
+  
   p {
     font-size: 16px;
     font-weight: bold;
@@ -19,24 +18,19 @@
     color: #333;
   }
   
-  /* Arama kutusu (input) stili */
+ 
   input {
-    padding: 10px; /* İçerik boşluğu */
-    font-size: 16px; /* Yazı boyutu */
-    border: 1px solid #ccc; /* Kenarlık rengi */
-    border-radius: 4px; /* Kenar yuvarlama */
-    outline: none; /* Odak dışı kenarlık */
-    transition: border-color 0.3s; /* Geçiş efekti */
+    padding: 10px;
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    outline: none; 
+   
   }
   
   input:focus {
-    border-color: #4CAF50; /* Odaklanınca kenarlık yeşil olur */
+    border-color: #4CAF50; 
   }
   
-  /* Placeholder stili (eğer varsa) */
-  input::placeholder {
-    color: #999;
-    font-style: italic;
-  }
   
   
